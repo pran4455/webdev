@@ -1,0 +1,89 @@
+/* Background styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://ssnsnucinvente.com/ssn_contact.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff; /* White text for contrast */
+}
+
+/* Form container styling */
+form, h1 {
+    max-width: 450px;
+    margin: 30px auto;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #00f2ff; /* Gold color */
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #fa87c8; /* Light blue */
+}
+
+/* Input and select styling */
+input, select {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 2px solid #000000; /* Gold border */
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent input */
+    color: #fff; /* White text */
+    font-size: 14px;
+}
+
+input:focus, select:focus {
+    border-color: #00FA9A; /* Green border on focus */
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 250, 154, 0.6); /* Neon green glow */
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    background-color: #32CD32; /* Lime green */
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #228B22; /* Darker green on hover */
+}
+
+/* Error message styling */
+.error {
+    color: #FF4500; /* Orange-red for errors */
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+    form, h1 {
+        padding: 15px;
+    }
+    input, select, button {
+        font-size: 14px;
+    }
+}
